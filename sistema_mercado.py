@@ -66,6 +66,7 @@ mercado.realizar_compra(produto, 500, cliente)
 print(mercado.lista_transacoes)
 
 print()
+print("AQUI COMEÇA O CLIENTE 2")
 cliente2 = Cliente("Cliente2", "222222", "Rua ABC")
 produto2 = Produto("Mesa", "sala", "Fornecedor", 200)
 mercado = Mercado()
