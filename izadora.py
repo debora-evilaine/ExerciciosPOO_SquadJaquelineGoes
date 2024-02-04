@@ -85,7 +85,7 @@ print(mercado.lista_transacoes)
 print()
 print("AQUI COMEÇA O CLIENTE 5")
 cliente5 = Cliente("Cliente5", "582462", "Rua Python")
-produto5 = Produto("Maçã", "vegetais", "Fornecedor", 40)
+produto5 = Produto("Maçã", "vegetais", "Fornecedor5", 40)
 mercado = Mercado()
 
 mercado.cadastrar_cliente(cliente5)
